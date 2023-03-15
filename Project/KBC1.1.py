@@ -22,7 +22,7 @@ while bal>=0:
         print ("A. ",opt2[0],"\nB. ",opt2[1],'\nC. ',opt2[2],'\nD. ',opt2[3])
         ans=input("Your answer is : ")
         ans=ans.lower()
-        print (ans)
+        #print (ans)
         if ans==solu[ran]:
             print ("Your answer is correct and you win 1000 rupees")
             bal+=1000
