@@ -1,6 +1,6 @@
 def GMean (a,b):
     mean=(a*b)**(1/2)
-    print (mean)
+    return (mean)
 (GMean(9,16))
 
 a=5
