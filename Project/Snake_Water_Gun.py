@@ -25,9 +25,8 @@ print("Press Q to exit")
 while True:
     round+=1
     print(f"Round {round}. ")
-    #inpp=str(input("What do you choose : "))
-    #inpp=inpp.lower()
-    inpp='snake'
+    inpp=str(input("What do you choose : "))
+    inpp=inpp.lower()
     if inpp=='q' or inpp== 'Q':
         exit()
     else:
