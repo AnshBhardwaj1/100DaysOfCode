@@ -4,7 +4,7 @@ def clear(type):
         pass
     else:
         type='.'+type
-    print(os.getcwd())
+    #print(os.getcwd())
     num=len(os.listdir('Project/Clear_the_clutter/Sorted'))
     all_files=os.listdir('Project/Clear_the_clutter/Clutter')
     count=0
